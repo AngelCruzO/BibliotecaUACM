@@ -1,0 +1,24 @@
+/* CSS Document */
+body{
+	text-transform: uppercase;
+}
+
+header,main,footer{
+			padding-left: 300px;
+		}
+		
+		.button-collpase{
+			display: none;
+		}
+		
+
+		@media only screen and (max-width:992px){
+			header,main,footer{
+				padding-left: 0;
+			}
+			
+			.button-collpase{
+				display: inherit;
+		}
+			
+		}
